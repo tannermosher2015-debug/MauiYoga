@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="">
+  <defs>
+    <linearGradient id="bgP" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EFEADD"/>
+      <stop offset="1" stop-color="#E2DACA"/>
+    </linearGradient>
+    <radialGradient id="sunP" cx="0.26" cy="0.74" r="0.5">
+      <stop offset="0" stop-color="#A4492A" stop-opacity="0.15"/>
+      <stop offset="0.6" stop-color="#A4492A" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#A4492A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bgP)"/>
+  <circle cx="312" cy="555" r="330" fill="url(#sunP)"/>
+  <g fill="none" stroke="#2F4A3E" stroke-width="2">
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,150)" stroke-opacity="0.10"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,390)" stroke-opacity="0.20"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,510)" stroke-opacity="0.14"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,630)" stroke-opacity="0.09"/>
+  </g>
+  <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,270)" fill="none" stroke="#A4492A" stroke-width="2.6" stroke-opacity="0.82"/>
+  <circle cx="600" cy="279" r="12" fill="#EFEADD"/>
+  <circle cx="600" cy="279" r="7" fill="#A4492A"/>
+</svg>

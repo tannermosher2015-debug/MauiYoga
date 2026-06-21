@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="">
+  <defs>
+    <linearGradient id="bgH" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F5F2EB"/>
+      <stop offset="1" stop-color="#E6DFD0"/>
+    </linearGradient>
+    <radialGradient id="sunH" cx="0.62" cy="0.33" r="0.52">
+      <stop offset="0" stop-color="#A4492A" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#A4492A" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#A4492A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bgH)"/>
+  <circle cx="744" cy="500" r="450" fill="url(#sunH)"/>
+  <!-- breath-line contour field (the motif as art) -->
+  <g fill="none" stroke="#2F4A3E" stroke-width="2">
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,270)"  stroke-opacity="0.08"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,380)"  stroke-opacity="0.11"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,490)"  stroke-opacity="0.16"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,600)"  stroke-opacity="0.24"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,820)"  stroke-opacity="0.24"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,930)"  stroke-opacity="0.16"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,1040)" stroke-opacity="0.11"/>
+    <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,1150)" stroke-opacity="0.08"/>
+  </g>
+  <!-- the breath: one emphasized terracotta line + node -->
+  <path d="M0,30 H430 C500,30 520,9 600,9 S700,30 770,30 H1200" transform="translate(0,710)" fill="none" stroke="#A4492A" stroke-width="2.6" stroke-opacity="0.85"/>
+  <circle cx="600" cy="719" r="13" fill="#F5F2EB"/>
+  <circle cx="600" cy="719" r="8" fill="#A4492A"/>
+</svg>

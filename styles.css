@@ -750,6 +750,18 @@ em { font-style: italic; }
   .breath--draw path { stroke-dashoffset: 0; transition: none; }
 }
 
+/* ---------------------------------------------------------- brand mark + gallery */
+.brand--logo { flex-direction: row; align-items: center; gap: 0.65rem; }
+.brand__mark { width: 42px; height: 42px; border-radius: 50%; flex-shrink: 0; display: block; }
+.brand__text { display: inline-flex; flex-direction: column; gap: 3px; line-height: 1; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.gallery .frame { aspect-ratio: 4 / 5; }
+
 /* ---------------------------------------------------------- responsive */
 @media (max-width: 920px) {
   .hero__grid { grid-template-columns: 1fr; gap: 2.6rem; }
@@ -758,6 +770,9 @@ em { font-style: italic; }
   .split--reverse .split__media { order: 0; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
+  /* horizontal entrances would push wide stacked blocks past the viewport — fall back to vertical */
+  .reveal.reveal--left, .reveal.reveal--right { transform: translateY(22px); }
+  .reveal.reveal--left.is-visible, .reveal.reveal--right.is-visible { transform: none; }
 }
 
 @media (max-width: 760px) {
