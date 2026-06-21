@@ -1,0 +1,9 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+
+# scratch — real photo originals (when added) shouldn't bloat the repo
+images/source/

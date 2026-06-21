@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Christina Martini Yoga">
+  <rect width="64" height="64" rx="13" fill="#2F4A3E"/>
+  <path d="M10 40 H24 C28 40 28 24 32 24 C36 24 36 40 40 40 H54" fill="none" stroke="#F4F1EA" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="24" r="3.2" fill="#A4492A"/>
+</svg>
